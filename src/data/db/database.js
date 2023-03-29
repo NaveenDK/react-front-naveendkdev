@@ -10,7 +10,7 @@ const database = {
     nationality: "Sri Lankan",
     language: "English, Singhalese",
     email: "",
-    address: "2/111 Seaview Rd, Glenfield",
+    address: "Auckland, NZ",
     freelanceStatus: "Available",
     socialLinks: {
       twitter: "https://twitter.com/naveenkolambage",
