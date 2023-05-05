@@ -102,11 +102,11 @@ const database = {
   portfolios: [
     {
       id: 1,
-      title: "Social Media App",
+      title: "Accountability tool - Asquad",
       subtitle: "HTML, CSS, JQuery, PHP, AJAX",
-      imageUrl: "/images/portfolio-image-temp.jpg",
-      largeImageUrl: ["/images/portfolio-image-temp-large.jpg"],
-      url: "https://github.com/NaveenDK/web-social",
+      imageUrl: "/images/AsquadDemo.gif",
+      largeImageUrl: ["/images/asquaddemo.gif"],
+      url: "https://asquad.onrender.com/",
     },
     {
       id: 2,
