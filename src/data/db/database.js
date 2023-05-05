@@ -103,7 +103,7 @@ const database = {
     {
       id: 1,
       title: "Accountability tool - Asquad",
-      subtitle: "HTML, CSS, JQuery, PHP, AJAX",
+      subtitle: "ReactJS, NodeJs",
       imageUrl: "/images/AsquadDemo.gif",
       largeImageUrl: ["/images/AsquadDemo.gif"],
       url: "https://asquad.onrender.com/",
@@ -118,19 +118,20 @@ const database = {
     },
     {
       id: 3,
-      title: "Music App ",
-      subtitle: "HTML, CSS, PHP, JQuery",
-      imageUrl: "/images/portfolio-image-temp.jpg",
-      url: "https://github.com/NaveenDK/musicplayer",
+      title: "Deliveroo Mobile App ",
+      subtitle: "React Native - EXPO , Sanity-backend",
+      imageUrl: "/images/Deliveroo.gif",
+      largeImageUrl: ["/images/Deliveroo.gif", "/images/Deliveroo.gif"],
+      url: "https://github.com/NaveenDK/deliveroo-expo",
     },
     {
       id: 4,
-      title: "Guess the Number Game :)",
-      subtitle: "ReactJS",
+      title: "Music App",
+      subtitle: "HTML, CSS, PHP, JQuery",
       imageUrl: "/images/portfolio-image-temp.jpg",
 
       largeImageUrl: ["/images/portfolio-image-temp-large"],
-      url: "https://github.com/NaveenDK/numbergame",
+      url: "https://github.com/NaveenDK/musicplayer",
     },
     {
       id: 5,
