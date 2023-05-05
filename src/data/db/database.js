@@ -105,7 +105,7 @@ const database = {
       title: "Accountability tool - Asquad",
       subtitle: "HTML, CSS, JQuery, PHP, AJAX",
       imageUrl: "/images/AsquadDemo.gif",
-      largeImageUrl: ["/images/asquaddemo.gif"],
+      largeImageUrl: ["/images/AsquadDemo.gif"],
       url: "https://asquad.onrender.com/",
     },
     {
