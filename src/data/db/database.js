@@ -103,7 +103,7 @@ const database = {
     {
       id: 1,
       title: "Accountability tool - Asquad",
-      subtitle: "ReactJS, NodeJs",
+      subtitle: "ReactJS, NodeJs , Express, MongoDB",
       imageUrl: "/images/AsquadDemo.gif",
       largeImageUrl: ["/images/AsquadDemo.gif"],
       url: "https://asquad.onrender.com/",
@@ -126,12 +126,12 @@ const database = {
     },
     {
       id: 4,
-      title: "Music App",
-      subtitle: "HTML, CSS, PHP, JQuery",
-      imageUrl: "/images/portfolio-image-temp.jpg",
+      title: "Exercise Tracker",
+      subtitle: "MERN - MongoDB, Express, ReactJS, NodeJS",
+      imageUrl: "/images/ExerciseTracker.gif",
 
-      largeImageUrl: ["/images/portfolio-image-temp-large"],
-      url: "https://github.com/NaveenDK/musicplayer",
+      largeImageUrl: ["/images/ExerciseTracker.gif"],
+      url: "https://github.com/NaveenDK/exercise-tracker",
     },
     {
       id: 5,
