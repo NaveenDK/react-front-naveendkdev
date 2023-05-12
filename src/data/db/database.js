@@ -22,7 +22,7 @@ const database = {
     brandImage: "/images/brand-image.jpg",
     aboutImage: "/images/about-image.jpg",
     aboutImageLg: "/images/about-image-lg.jpg",
-    cvfile: "/files/empty.pdf",
+    cvfile: "/files/NaveenCV.pdf",
   },
   services: [
     {

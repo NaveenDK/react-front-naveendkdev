@@ -140,9 +140,9 @@ function About() {
                       </li>
                     )}
                   </ul>
-                  {/* <a href={information.cvfile} className="mi-button">
+                  <a href={information.cvfile} className="mi-button">
                     Download CV
-                  </a> */}
+                  </a>
                 </div>
               </div>
             </div>
