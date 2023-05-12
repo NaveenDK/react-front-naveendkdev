@@ -11,7 +11,6 @@ const database = {
     language: "English, Singhalese",
     email: "",
     address: "Auckland, NZ",
-    freelanceStatus: "Available",
     socialLinks: {
       twitter: "https://twitter.com/naveenkolambage",
       pinterest: "",
@@ -103,7 +102,7 @@ const database = {
     {
       id: 1,
       title: "Accountability tool - Asquad",
-      subtitle: "ReactJS, NodeJs , Express, MongoDB",
+      subtitle: "ReactJS, NodeJs , Express, MongoDB ",
       imageUrl: "/images/AsquadDemo.gif",
       largeImageUrl: ["/images/AsquadDemo.gif"],
       url: "https://asquad.onrender.com/",
@@ -161,21 +160,13 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2023 March - Present",
-        position: "Tech Lead & Developer",
-        company: "Neura Verse",
-        details:
-          "Technical Lead at Nueraverse - React, React Native and various technologies",
-      },
-      {
-        id: 2,
         year: "2021 Nov - Present",
         position: "Technical QA",
         company: "Datacom Systems",
         details: "Work as a Technical QA consultant",
       },
       {
-        id: 3,
+        id: 2,
         year: "2022 April- Present",
         position: "Test Analyst",
         company: "Westpac NZ",
@@ -183,14 +174,14 @@ const database = {
           "QA Analyst for the following projects -> FICO decision engine migration project, CLM - DocuSign Migration project, CCCFA changes implementation project",
       },
       {
-        id: 4,
+        id: 3,
         year: "2021 Nov - 2022 April",
         position: "QA Analyst",
         company: "UDC Finance  NZ",
         details: "QA Analyst for UDC Retail Portal.",
       },
       {
-        id: 5,
+        id: 4,
         year: "2018 March - 2021 Nov",
         position: "Tech Lead & QA Analyst",
         company: "Digital Collab",
@@ -365,7 +356,7 @@ const database = {
   contactInfo: {
     phoneNumbers: ["+6420-40807364"],
     emailAddress: ["naveenkolambage@gmail.com"],
-    address: "2/111 Seaview Road Glenfield New Zealand",
+    address: "Glenfield, Auckland,  New Zealand",
   },
 };
 
