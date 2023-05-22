@@ -4,7 +4,7 @@ const database = {
   information: {
     name: "Naveen Kolambage",
     aboutContent:
-      "I am a fullstack developer with a focus on ReactJS, React Native, NodeJS and proficient in various other technologies..",
+      "I currently work at Datacom as a Functional Tester,  I am a fullstack developer at heart I am looking to transition to a role focused on ReactJS, React Native, NodeJS and or other technologies ",
     age: 28,
     phone: "",
     nationality: "Sri Lankan",
@@ -145,8 +145,8 @@ const database = {
       title: "Permissions Module",
       subtitle: "NodeJS, ReactJS, MongoDB, DigitalOcean",
       imageUrl: "/images/portfolio-image-temp.jpg",
-      largeImageUrl: ["/images/portfolio-image-temp-large"],
-      Url: "https://github.com/NaveenDK/permissions-nodebackend",
+      largeImageUrl: ["https://github.com/NaveenDK/permissions-nodebackend"],
+      url: "https://github.com/NaveenDK/permissions-nodebackend",
     },
     {
       id: 7,
@@ -163,23 +163,34 @@ const database = {
         year: "2021 Nov - Present",
         position: "Technical QA",
         company: "Datacom Systems",
-        details: "Work as a Technical QA consultant",
+        details: "Work as a QA consultants",
+        Clients: [
+          {
+            clientName: "Westpac NZ",
+            clientPeriod: "2022 April - present",
+            role: "Technical QA",
+            responsibilities: [
+              "Work within an agile team, participating in agile ceremonies perform functional testing, use tools like JIRA & Zephyr. ",
+              "Work with DB2 Database and SQL to perform Database testing. ",
+              "Work closely with developers and other team members to refine stories. ",
+              "Deliver under pressure. ",
+              "Perform Demos for Stakeholders before stories released. ",
+            ],
+          },
+          {
+            clientName: "UDC Finance NZ",
+            clientPeriod: "2021 Nov - 2022 March",
+            role: "Test Analyst",
+            responsibilities: [
+              "In addition to reporting bugs, suggest solutions to save developer time. ",
+              "Work with MySQL Database to perform Database testing. ",
+              "Conduct stakeholder demos prior to the release of stories. ",
+              "Foster close collaboration with developers and fellow team members to enhance story refinement. ",
+            ],
+          },
+        ],
       },
-      {
-        id: 2,
-        year: "2022 April- Present",
-        position: "Test Analyst",
-        company: "Westpac NZ",
-        details:
-          "QA Analyst for the following projects -> FICO decision engine migration project, CLM - DocuSign Migration project, CCCFA changes implementation project",
-      },
-      {
-        id: 3,
-        year: "2021 Nov - 2022 April",
-        position: "QA Analyst",
-        company: "UDC Finance  NZ",
-        details: "QA Analyst for UDC Retail Portal.",
-      },
+
       {
         id: 4,
         year: "2018 March - 2021 Nov",
@@ -193,7 +204,7 @@ const database = {
       {
         id: 1,
         year: "2014 - 2017",
-        graduation: "Bachelor of Information Sciences",
+        graduation: "Bachelor of Information 0Sciences",
         university: "Massey University",
       },
       // {
@@ -213,7 +224,70 @@ const database = {
       //     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro.",
       // },
     ],
+    relevantCourses: [
+      {
+        id: 1,
+        year: "2020 Sept - 2020 Aug",
+        courseName: "Advanced React ",
+        courseDetails:
+          "128 interactive screencasts spread across 9 modules. Completed Reusability, Performance, React Context, Hooks, React Router and Capstone Project with an introduction to Redux",
+        certificate: "https://scrimba.com/certificate/uDR6xbSg/greact",
+      },
+      {
+        id: 2,
+        year: "2017 Oct - 2017 Nov",
+        courseName: "Pluralsight Courses ",
+        courseDetails:
+          "Completed few courses related to ReactJS, Functional programming ",
+        multicertificates: [
+          {
+            id: 1,
+            name: "React 17 Getting Started",
+            url: "https://app.pluralsight.com/achievements/share/f42fa01a-cb54-424a-aaf7-88bc13dbbd25",
+          },
+          {
+            id: 2,
+            name: "React The Big Picture",
+            url: "https://app.pluralsight.com/achievements/share/96722e68-38ce-45e9-96a4-cab9af65bc2b",
+          },
+          {
+            id: 3,
+            name: "Fundamentals of Functional Programming",
+            url: "https://app.pluralsight.com/achievements/share/2fd2bb07-4e76-4063-971a-d5426949b817",
+          },
+        ],
+      },
+      {
+        id: 2,
+        year: "2019 Aug - 2019 Sept ",
+        courseName: "Spotify Clone ",
+        courseDetails: "Spotify clone built with SQL, JavaScript, PHP",
+        certificate: "https://www.udemy.com/certificate/UC-DLZQJHP3/",
+      },
+      {
+        id: 3,
+        year: "2014 Feb - 2017 March",
+        courseName: "Bachelor of Information Sciences  - Massey University ",
+        courseDetails:
+          "Completed courses varying from Programming fundamentals to Advanced Software Engineering Project",
+      },
+    ],
+    relevantProjects: [
+      {
+        id: 1,
+        year: "2014 Feb - 2017 March",
+        graduation: "Bachelor of Information 2Sciences",
+        university: "Massey University",
+      },
+      {
+        id: 2,
+        year: "2014 - 2017",
+        graduation: "Bachelor of Information 3Sciences",
+        university: "Massey University",
+      },
+    ],
   },
+
   blogs: [
     {
       id: 1,

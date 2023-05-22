@@ -8,11 +8,13 @@ import Resume from "../components/Resume";
 import Sectiontitle from "../components/Sectiontitle";
 import Smalltitle from "../components/Smalltitle";
 import Spinner from "../components/Spinner";
-
+import Course from "../components/Course";
 function Resumes() {
   const [skills, setSkills] = useState([]);
   const [workingExperience, setWorkingExperience] = useState([]);
   const [educationExperience, setEducationExperience] = useState([]);
+  const [relevantProjects, setRelevantProjects] = useState([]);
+  const [relevantCourses, setRelevantCourses] = useState([]);
 
   useEffect(() => {
     axios.get("/api/skills").then((response) => {
@@ -21,6 +23,8 @@ function Resumes() {
     axios.get("/api/experience").then((response) => {
       setWorkingExperience(response.data.workingExperience);
       setEducationExperience(response.data.educationExperience);
+      setRelevantCourses(response.data.relevantCourses);
+      setRelevantProjects(response.data.relevantProjects);
     });
   }, []);
 
@@ -31,8 +35,8 @@ function Resumes() {
         <meta name="description" content="NaveenDK - Full Stack Developer" />
       </Helmet>
       <Suspense fallback={<Spinner />}>
-        <div className="mi-skills-area mi-section mi-padding-top">
-          {/* <div className="container">
+        {/*<div className="mi-skills-area mi-section mi-padding-top">
+         <div className="container">
             <Sectiontitle title="My Skills" />
             <div className="mi-skills">
               <div className="row mt-30-reverse">
@@ -47,22 +51,27 @@ function Resumes() {
                 ))}
               </div>
             </div>
-          </div> */}
-        </div>
+          </div>
+        </div> */}
         <div className="mi-resume-area mi-section mi-padding-top mi-padding-bottom">
           <div className="container">
             <Sectiontitle title="Resume" />
+            <div className="mt-30"></div>
+            <Smalltitle title="Relevant Courses" icon="book" />
+            {/* <div className="mi-resume-wrapper">
+              {educationExperience.map((educatonExp) => (
+                <Resume key={educatonExp.id} resumeData={educatonExp} />
+              ))}
+            </div> */}
+            <div className="mi-resume-wrapper">
+              {relevantCourses.map((course) => (
+                <Course key={course.id} courseData={course} />
+              ))}
+            </div>
             <Smalltitle title="Working Experience" icon="briefcase" />
             <div className="mi-resume-wrapper">
               {workingExperience.map((workingExp) => (
                 <Resume key={workingExp.id} resumeData={workingExp} />
-              ))}
-            </div>
-            <div className="mt-30"></div>
-            <Smalltitle title="Educational Qualifications" icon="book" />
-            <div className="mi-resume-wrapper">
-              {educationExperience.map((educatonExp) => (
-                <Resume key={educatonExp.id} resumeData={educatonExp} />
               ))}
             </div>
           </div>

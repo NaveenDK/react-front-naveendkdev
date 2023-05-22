@@ -95,8 +95,10 @@ function About() {
                     I am <span className="color-theme">{information.name}</span>
                   </h3>
                   <p>
-                    I am a fullstack developer with a focus on ReactJS, React
-                    Native, NodeJS and proficient in various other technologies.
+                    I am currently employed at Datacom as a Functional Tester, I
+                    am a fullstack developer at heart I am looking to transition
+                    to a role focused on ReactJS, React Native, NodeJS and or
+                    other technologies
                   </p>
                   <ul>
                     {!information.name ? null : (
