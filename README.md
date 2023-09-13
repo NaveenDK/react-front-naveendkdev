@@ -1,6 +1,6 @@
 
 
-## NaveenDK -- FUll Stack Developer
+## NaveenDK 
 
 This is the readme file for my portfolio . 
 

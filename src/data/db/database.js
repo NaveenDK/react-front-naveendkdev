@@ -103,9 +103,9 @@ const database = {
       id: 1,
       title: "Accountability tool - Asquad",
       subtitle: "ReactJS, NodeJs , Express, MongoDB ",
-      imageUrl: "/images/AsquadDemo.gif",
-      largeImageUrl: ["/images/AsquadDemo.gif"],
-      url: "https://asquad.onrender.com/",
+      imageUrl: "/images/ReviewPage.gif",
+      largeImageUrl: ["/images/ReviewPage.gif"],
+      url: "https://asquad.app/",
     },
     {
       id: 2,
@@ -127,9 +127,9 @@ const database = {
       id: 4,
       title: "Exercise Tracker",
       subtitle: "MERN - MongoDB, Express, ReactJS, NodeJS",
-      imageUrl: "/images/ExerciseTracker.gif",
+      imageUrl: "/images/DemoExercise.gif",
 
-      largeImageUrl: ["/images/ExerciseTracker.gif"],
+      largeImageUrl: ["/images/DemoExercise.gif"],
       url: "https://github.com/NaveenDK/exercise-tracker",
     },
     {
