@@ -57,23 +57,26 @@ function Resumes() {
           <div className="container">
             <Sectiontitle title="Resume" />
             <div className="mt-30"></div>
-            <Smalltitle title="Relevant Courses" icon="book" />
-            {/* <div className="mi-resume-wrapper">
-              {educationExperience.map((educatonExp) => (
-                <Resume key={educatonExp.id} resumeData={educatonExp} />
-              ))}
-            </div> */}
-            <div className="mi-resume-wrapper">
-              {relevantCourses.map((course) => (
-                <Course key={course.id} courseData={course} />
-              ))}
-            </div>
+       
             <Smalltitle title="Working Experience" icon="briefcase" />
             <div className="mi-resume-wrapper">
               {workingExperience.map((workingExp) => (
                 <Resume key={workingExp.id} resumeData={workingExp} />
               ))}
             </div>
+            <Smalltitle title="Relevant Courses" icon="book" />
+
+            
+{/* <div className="mi-resume-wrapper">
+  {educationExperience.map((educatonExp) => (
+    <Resume key={educatonExp.id} resumeData={educatonExp} />
+  ))}
+</div> */}
+<div className="mi-resume-wrapper">
+  {relevantCourses.map((course) => (
+    <Course key={course.id} courseData={course} />
+  ))}
+</div>
           </div>
         </div>
       </Suspense>

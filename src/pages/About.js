@@ -66,7 +66,7 @@ function About() {
           <div className="container">
             <Sectiontitle title="About Me" />
             <div className="row align-items-center">
-              <div className="col-lg-6">
+              <div className="col-lg-3">
                 <div className="mi-about-image">
                   <ProgressiveImage
                     src={information.aboutImage}
@@ -89,16 +89,15 @@ function About() {
                   />
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-9">
                 <div className="mi-about-content">
                   <h3>
                     I am <span className="color-theme">{information.name}</span>
                   </h3>
                   <p>
-                    I am currently employed at Datacom as a Functional Tester, I
-                    am a fullstack developer at heart I am looking to transition
-                    to a role focused on ReactJS, React Native, NodeJS and or
-                    other technologies
+                  
+                    Really passionate about Full Stack development and have 
+                    experience working with ReactJS, NodeJS and related frameworks. 
                   </p>
                   <ul>
                     {!information.name ? null : (

@@ -4,7 +4,7 @@ const database = {
   information: {
     name: "Naveen Kolambage",
     aboutContent:
-      "I currently work at Datacom as a Functional Tester,  I am a fullstack developer at heart I am looking to transition to a role focused on ReactJS, React Native, NodeJS and or other technologies ",
+      "  Really passionate about Full Stack development and experienced working with ReactJS, NodeJS and related frameworks.  ",
     age: 28,
     phone: "",
     nationality: "Sri Lankan",
@@ -15,14 +15,14 @@ const database = {
       twitter: "https://twitter.com/naveenkolambage",
       pinterest: "",
       behance: "",
-      linkedin: "https://www.linkedin.com/in/naveendk/",
+      linkedin: "",
       dribbble: "",
       github: "https://github.com/NaveenDK/",
     },
-    brandImage: "/images/brand-image.jpg",
-    aboutImage: "/images/about-image.jpg",
-    aboutImageLg: "/images/about-image-lg.jpg",
-    cvfile: "/files/NaveenCV.pdf",
+    brandImage: "/images/profile.jpeg",
+    aboutImage: "/images/profile.jpeg",
+    aboutImageLg: "/images/profile.jpeg",
+    cvfile: "/files/NavJS.pdf",
   },
   services: [
     {
@@ -103,17 +103,17 @@ const database = {
       id: 1,
       title: "Accountability tool - Asquad",
       subtitle: "ReactJS, NodeJs , Express, MongoDB ",
-      imageUrl: "/images/ReviewPage.gif",
-      largeImageUrl: ["/images/ReviewPage.gif"],
+      imageUrl: "/images/signup.png",
+      largeImageUrl: ["/images/overview.png","/images/login.png","/images/review.png","/images/signup.png"],
       url: "https://asquad.app/",
     },
     {
       id: 2,
-      title: "Shopping Cart - Ecommerce ",
-      subtitle: "ReactJS, React Hooks",
-      imageUrl: "/images/shopping-cart.gif",
-      largeImageUrl: ["/images/shopping-cart.gif", "/images/shopping-cart.gif"],
-      url: "https://github.com/NaveenDK/ecommerce-front",
+      title: "Notes App ",
+      subtitle: "ReactJS, React Hooks, TypeScript ",
+      imageUrl: "/images/notes-app-screen_2.png",
+      largeImageUrl: ["/images/notes-screen_1.png", "/images/notes-app-screen_2.png","/images/notes-app-screen_3.png","/images/notes-app-screen_4.png"],
+      url: "https://tsxnotesapp.netlify.app/",
     },
     {
       id: 3,
@@ -132,29 +132,16 @@ const database = {
       largeImageUrl: ["/images/DemoExercise.gif"],
       url: "https://github.com/NaveenDK/exercise-tracker",
     },
+    
     {
-      id: 5,
-      title: "TimeLine Widget - wordpress plugin",
-      subtitle: "PHP, JS, HTML and CSS",
-      imageUrl: "/images/portfolio-image-temp.jpg",
-      largeImageUrl: ["/images/portfolio-image-temp-large"],
-      Url: "#",
+      id: 2,
+      title: "Shopping Cart - Ecommerce ",
+      subtitle: "ReactJS, React Hooks",
+      imageUrl: "/images/shopping-cart.gif",
+      largeImageUrl: ["/images/shopping-cart.gif", "/images/shopping-cart.gif"],
+      url: "https://github.com/NaveenDK/ecommerce-front",
     },
-    {
-      id: 6,
-      title: "Permissions Module",
-      subtitle: "NodeJS, ReactJS, MongoDB, DigitalOcean",
-      imageUrl: "/images/portfolio-image-temp.jpg",
-      largeImageUrl: ["https://github.com/NaveenDK/permissions-nodebackend"],
-      url: "https://github.com/NaveenDK/permissions-nodebackend",
-    },
-    {
-      id: 7,
-      title: "Star Wars Responsive Website",
-      subtitle: "HTML, CSS",
-      imageUrl: "/images/portfolio-image-temp.jpg",
-      largeImageUrl: ["/images/portfolio-image-temp-large"],
-    },
+   
   ],
   experience: {
     workingExperience: [
@@ -233,31 +220,32 @@ const database = {
           "128 interactive screencasts spread across 9 modules. Completed Reusability, Performance, React Context, Hooks, React Router and Capstone Project with an introduction to Redux",
         certificate: "https://scrimba.com/certificate/uDR6xbSg/greact",
       },
-      {
-        id: 2,
-        year: "2017 Oct - 2017 Nov",
-        courseName: "Pluralsight Courses ",
-        courseDetails:
-          "Completed few courses related to ReactJS, Functional programming ",
-        multicertificates: [
-          {
-            id: 1,
-            name: "React 17 Getting Started",
-            url: "https://app.pluralsight.com/achievements/share/f42fa01a-cb54-424a-aaf7-88bc13dbbd25",
-          },
-          {
-            id: 2,
-            name: "React The Big Picture",
-            url: "https://app.pluralsight.com/achievements/share/96722e68-38ce-45e9-96a4-cab9af65bc2b",
-          },
-          {
-            id: 3,
-            name: "Fundamentals of Functional Programming",
-            url: "https://app.pluralsight.com/achievements/share/2fd2bb07-4e76-4063-971a-d5426949b817",
-          },
-        ],
-      },
-      {
+      // {
+      //   id: 2,
+      //   year: "2017 Oct - 2017 Nov",
+      //   courseName: "Pluralsight Courses ",
+      //   courseDetails:
+      //     "Completed few courses related to ReactJS, Functional programming ",
+      //   multicertificates: [
+      //     {
+      //       id: 1,
+      //       name: "React 17 Getting Started",
+      //       url: "https://app.pluralsight.com/achievements/share/f42fa01a-cb54-424a-aaf7-88bc13dbbd25",
+      //     },
+      //     {
+      //       id: 2,
+      //       name: "React The Big Picture",
+      //       url: "https://app.pluralsight.com/achievements/share/96722e68-38ce-45e9-96a4-cab9af65bc2b",
+      //     },
+      //     {
+      //       id: 3,
+      //       name: "Fundamentals of Functional Programming",
+      //       url: "https://app.pluralsight.com/achievements/share/2fd2bb07-4e76-4063-971a-d5426949b817",
+      //     },
+      //   ],
+      // },
+      // {
+        {
         id: 2,
         year: "2019 Aug - 2019 Sept ",
         courseName: "Spotify Clone ",
