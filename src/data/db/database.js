@@ -104,19 +104,40 @@ const database = {
       title: "Accountability tool - Asquad",
       subtitle: "ReactJS, NodeJs , Express, MongoDB ",
       imageUrl: "/images/signup.png",
-      largeImageUrl: ["/images/overview.png","/images/login.png","/images/review.png","/images/signup.png"],
+      largeImageUrl: [
+        "/images/overview.png",
+        "/images/login.png",
+        "/images/review.png",
+        "/images/signup.png",
+      ],
       url: "https://asquad.app/",
     },
     {
       id: 2,
-      title: "Notes App ",
-      subtitle: "ReactJS, React Hooks, TypeScript ",
-      imageUrl: "/images/notes-app-screen_2.png",
-      largeImageUrl: ["/images/notes-screen_1.png", "/images/notes-app-screen_2.png","/images/notes-app-screen_3.png","/images/notes-app-screen_4.png"],
-      url: "https://tsxnotesapp.netlify.app/",
+      title: "Redux Tool kit demo - shop  ",
+      subtitle: "ReactJS, Redux toolkit",
+      imageUrl: "/images/ReduxToolKit.jpg",
+      largeImageUrl: [
+        "/images/Redux Toolkit - Demo.png",
+        "/images/Redux Toolkit - Demo.png",
+      ],
+      url: "https://reduxtoolkit-demo-ecommerce.netlify.app/",
     },
     {
       id: 3,
+      title: "Notes App ",
+      subtitle: "ReactJS, React Hooks, TypeScript ",
+      imageUrl: "/images/notes-app-screen_2.png",
+      largeImageUrl: [
+        "/images/notes-screen_1.png",
+        "/images/notes-app-screen_2.png",
+        "/images/notes-app-screen_3.png",
+        "/images/notes-app-screen_4.png",
+      ],
+      url: "https://tsxnotesapp.netlify.app/",
+    },
+    {
+      id: 4,
       title: "Deliveroo Mobile App ",
       subtitle: "React Native - EXPO , Sanity-backend",
       imageUrl: "/images/Deliveroo.gif",
@@ -124,7 +145,7 @@ const database = {
       url: "https://github.com/NaveenDK/deliveroo-expo",
     },
     {
-      id: 4,
+      id: 6,
       title: "Exercise Tracker",
       subtitle: "MERN - MongoDB, Express, ReactJS, NodeJS",
       imageUrl: "/images/DemoExercise.gif",
@@ -132,16 +153,15 @@ const database = {
       largeImageUrl: ["/images/DemoExercise.gif"],
       url: "https://github.com/NaveenDK/exercise-tracker",
     },
-    
+
     {
-      id: 2,
+      id: 5,
       title: "Shopping Cart - Ecommerce ",
       subtitle: "ReactJS, React Hooks",
       imageUrl: "/images/shopping-cart.gif",
       largeImageUrl: ["/images/shopping-cart.gif", "/images/shopping-cart.gif"],
       url: "https://github.com/NaveenDK/ecommerce-front",
     },
-   
   ],
   experience: {
     workingExperience: [
@@ -245,7 +265,7 @@ const database = {
       //   ],
       // },
       // {
-        {
+      {
         id: 2,
         year: "2019 Aug - 2019 Sept ",
         courseName: "Spotify Clone ",
