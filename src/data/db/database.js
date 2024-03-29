@@ -172,9 +172,24 @@ const database = {
         company: "Datacom Systems",
         details: "Work as a QA consultants",
         Clients: [
+
+          {
+            clientName: "Smartly ",
+            clientPeriod: "2024 Feb - present",
+            role: "Technical QA",
+            responsibilities: [
+              "Work within an agile team, participating in agile ceremonies perform functional/UI testing, mastering Azure Devops for test management. ",
+              "Work closely with Team members including Business Analysts to refine the user stories to fill gaps. ",
+              "Work closely with developers when testing, making sure what needs to be tested is tested ",
+              "Deliver under tight deadlines before sprint end",
+              "Perform Demos for Stakeholders for each story released. ",
+            ],
+          },
+
+
           {
             clientName: "Westpac NZ",
-            clientPeriod: "2022 April - present",
+            clientPeriod: "2022 April - 2023 Nov",
             role: "Technical QA",
             responsibilities: [
               "Work within an agile team, participating in agile ceremonies perform functional testing, use tools like JIRA & Zephyr. ",
