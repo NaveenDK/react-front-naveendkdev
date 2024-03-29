@@ -34,13 +34,13 @@ function Blogs() {
   return (
     <Layout>
       <Helmet>
-        <title>Blogs - NaveenDk </title>
+        <title>Blog - NaveenDk </title>
         <meta name="description" content="NaveenDK" />
       </Helmet>
       <Suspense fallback={<Spinner />}>
         <div className="mi-about mi-section mi-padding-top mi-padding-bottom">
           <div className="container">
-            <Sectiontitle title="Recent Blogs" />
+            <Sectiontitle title="Blog" />
             <BlogsView blogs={currentPosts} />
             {!(posts.length > postsPerPage) ? null : (
               <Pagination

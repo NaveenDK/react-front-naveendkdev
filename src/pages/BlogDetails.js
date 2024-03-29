@@ -24,12 +24,12 @@ function BlogDetails(props) {
       .catch((err) => console.log(err));
   });
 
-  const disqusShortname = "chester-react"; //found in your Disqus.com dashboard
-  const disqusConfig = {
-    url: "https://tf-react-chester.now.sh/", //Homepage link of this site.
-    identifier: blogId,
-    title: blogFile,
-  };
+  // const disqusShortname = "chester-react"; //found in your Disqus.com dashboard
+  // const disqusConfig = {
+  //   url: "https://tf-react-chester.now.sh/", //Homepage link of this site.
+  //   identifier: blogId,
+  //   title: blogFile,
+  // };
 
   return (
     <Layout>
@@ -42,12 +42,12 @@ function BlogDetails(props) {
           <div className="container">
             <Markdown>{content}</Markdown>
             <Suspense fallback={<h1>loading...</h1>}>
-              <div className="mi-blog-details-comments mt-30">
+              {/* <div className="mi-blog-details-comments mt-30">
                 <Disqus.DiscussionEmbed
                   shortname={disqusShortname}
                   config={disqusConfig}
                 />
-              </div>
+              </div> */}
             </Suspense>
           </div>
         </div>
