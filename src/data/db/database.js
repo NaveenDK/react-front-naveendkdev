@@ -320,6 +320,14 @@ const database = {
       createDay: "30",
       createMonth: "March",
       createYear: "2024",
+    },   {
+      id: 2,
+      title: "React Intersection Observer",
+      featuredImage: "/images/ReactJS.jpg",
+      filesource: "../../blog/react-intersection-observer.md",
+      createDay: "02",
+      createMonth: "April",
+      createYear: "2024",
     }
   ],
   contactInfo: {
