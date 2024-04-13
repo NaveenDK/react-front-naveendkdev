@@ -328,6 +328,15 @@ const database = {
       createDay: "02",
       createMonth: "April",
       createYear: "2024",
+    },
+    {
+      id: 3,
+      title: "Converting React Forms to Formik and Yup",
+      featuredImage: "/images/ReactJS.jpg",
+      filesource: "../../blog/convert-react-form-formik-yup.md",
+      createDay: "13",
+      createMonth: "April",
+      createYear: "2024",
     }
   ],
   contactInfo: {
